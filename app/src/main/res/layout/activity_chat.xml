@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#F3F7F5">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="#27705C">
+
+    <TextView
+        android:id="@+id/chatTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthcare Professional"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/chatSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professional"
+        android:textSize="14sp"
+        android:textColor="#E0F0E8"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
+
+<ScrollView
+    android:id="@+id/chatScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:fillViewport="false"
+    android:clipToPadding="false"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/chatContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</ScrollView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:hint="Type a message..."
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLines="3"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:backgroundTint="#27705C" />
+
+    <ImageButton
+        android:id="@+id/sendButton"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:contentDescription="Send message"
+        android:backgroundTint="#27705C"
+        android:background="@android:drawable/btn_default"
+        android:tint="#27705C" />
+
+</LinearLayout>
+
+</LinearLayout>

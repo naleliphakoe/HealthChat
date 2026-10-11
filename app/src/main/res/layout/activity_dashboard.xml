@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F3F7F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, Patient!"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#243B32"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How can we help you today?"
+            android:textSize="16sp"
+            android:textColor="#52645C"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthcare Professionals"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#243B32"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/doctorButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Dr. Thabo Mokoena&#10;General Practitioner"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="#27705C"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/nurseButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Nurse Lerato Dlamini&#10;Registered Nurse"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="#27705C"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/otherDoctorButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Dr. Aisha Naidoo&#10;Women's Health"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="#27705C"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/supportButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Clinic Support&#10;Appointment Enquiries"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="#27705C"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/emergencyButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Emergency Help"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="#B3261E"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HealthChat is a demo application and does not replace professional medical care."
+            android:textSize="12sp"
+            android:textColor="#68776F"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>
